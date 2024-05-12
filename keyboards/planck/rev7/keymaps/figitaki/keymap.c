@@ -70,21 +70,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,    KC_NO,   KC_NO,   KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN,
     MC_A,    MC_R,    MC_S,    MC_T,    KC_G,    KC_NO,   KC_NO,   KC_M,    MC_N,    MC_E,    MC_I,    MC_O,
     KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,    KC_NO,   KC_NO,   KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH,
-    BACKLIT, KC_LSFT, KC_ESC,  KC_TAB,  NUMBER,  KC_NO,   KC_NO,   SYMBOL,  KC_ENT,  KC_CAPS, KC_NO,   KC_NO
+    BACKLIT, KC_LSFT, KC_ESC,  NUMBER,  KC_TAB,  KC_NO,   KC_NO,   KC_ENT,  SYMBOL, KC_CAPS, KC_NO,   KC_NO
 ),
 
 [_SYMBOL] = LAYOUT_planck_grid(
     KC_GRV,  KC_EXLM, KC_DLR,  KC_PERC, KC_CIRC, _______, _______, KC_AMPR, KC_ASTR, KC_MINS, KC_PLUS, KC_BSLS,
     KC_QUOT, KC_DQUO, KC_LCBR, KC_LPRN, KC_LBRC, _______, _______, KC_RBRC, KC_RPRN, KC_RCBR, KC_DQUO, KC_QUOT,
     KC_TILD, KC_LT,   KC_HASH, KC_AT,   KC_PIPE, _______, _______, KC_UNDS, KC_EQL,  _______, KC_GT,   KC_QUES,
-    _______, _______, _______, _______, EXTEND,  _______, _______, _______, _______, _______, _______, _______
+    _______, _______, _______, EXTEND,  _______, _______, _______, _______, _______, _______, _______, _______
 ),
 
 [_NUMBER] = LAYOUT_planck_grid(
     _______, _______, _______, _______, _______, QK_BOOT, _______, _______, KC_P7,   KC_8,    KC_P9,   _______,
     KC_TAB,  _______, _______, _______, _______, _______, _______, KC_BSPC, KC_P4,   KC_P5,   KC_P6,   KC_ENT,
     _______, _______, _______, _______, _______, _______, _______, _______, KC_P1,   KC_P2,   KC_P3,   _______,
-    _______, _______, _______, _______, _______, _______, _______, EXTEND,  _______, KC_P0,   _______, _______
+    _______, _______, _______, _______, _______, _______, _______, _______, EXTEND,  KC_P0,   _______, _______
 ),
 
 [_EXTEND] = LAYOUT_planck_grid(
